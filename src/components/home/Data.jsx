@@ -21,7 +21,7 @@ const Data = () => {
       </h1>
       <h3 className="home_subtitle">Développeur React/PHP</h3>
       <p className='home_description'> 
-      Passionné par le développement d’application et gestion de données.
+        Passionné par la technologie et la création de solutions innovants. 
       </p>
         <Social />
       <a href="#contact" className="button button-flex">
