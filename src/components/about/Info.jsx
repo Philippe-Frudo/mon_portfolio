@@ -15,7 +15,7 @@ const Info = () => {
         </svg>
 
         <h3 className="about_title">Complet</h3>
-        <span className="about_subtitle">1 projet</span>
+        <span className="about_subtitle">projet 1</span>
       </div>
 
       <div className="about_box">
