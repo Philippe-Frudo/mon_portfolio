@@ -52,7 +52,7 @@ const Contact = () => {
               <span className="contact_card-data">l.p.n.frudo@gmail.com</span>
               
               <a href="mailto:l.p.n.frudo@gmail.com" className="contact_button" target='_blink'>
-                Ecris moi
+                Ercis-moi
                 <ArrowRightIconContact/>
               </a>
             </div>
@@ -70,12 +70,12 @@ const Contact = () => {
               <h3 className="contact_card-title">Whatsapp</h3>
               <span className="contact_card-data">038 69 226 67</span>
               <a href="https://api.whatsapp.com/send?phone=0386922667&text=Bonjour !" className="contact_button" target='_blink'> 
-                Ecris moi
+                Ecris-moi
                 <ArrowRightIconContact/>
               </a>
             </div>
 
-            <div className="contact_card">
+          {/*  <div className="contact_card">
               <svg 
                 className='contact_card-icon'
                 xmlns="http://www.w3.org/2000/svg" 
@@ -87,10 +87,10 @@ const Contact = () => {
               <h3 className="contact_card-title">Messanger</h3>
               <span className="contact_card-data">lainantenaina.fb123</span>
               <a href="https://m.me/" className="contact_button" target='_blink'>
-                Ecris moi
+                Ecris-moi
                 <ArrowRightIconContact/>
               </a>
-            </div>
+            </div> */}
 
           </div>
         </div>
@@ -101,12 +101,12 @@ const Contact = () => {
           <form ref={form} onSubmit={sendEmail} className='contact_content'>
             <div className="contact_form-div">
               <label htmlFor="name" className="contact_form-tag">Nom</label>
-              <input type="text" name='name' id='name' className='contact_form-input' placeholder='Insert your name'/>
+              <input type="text" name='name' id='name' className='contact_form-input' placeholder='Entrer votre nom ...'/>
             </div>
 
             <div className="contact_form-div">
               <label htmlFor="email" className="contact_form-tag">Email</label>
-              <input type="email" name='email' id='email' className='contact_form-input' placeholder='Insert your email'/>
+              <input type="email" name='email' id='email' className='contact_form-input' placeholder='Entrer votre email...'/>
             </div>
 
             <div className="contact_form-div  contact_form-area">
@@ -116,7 +116,9 @@ const Contact = () => {
                 className='contact_form-input' 
                 id="project" 
                 cols="30" 
-                rows="10">
+                rows="10"
+                placeholder='Entrer votre message...'
+                >
               </textarea>
             </div>
 

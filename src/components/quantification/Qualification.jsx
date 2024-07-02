@@ -48,7 +48,7 @@ const Qualification = () => {
                 >
                  <path d="M20 6h-3V4c0-1.103-.897-2-2-2H9c-1.103 0-2 .897-2 2v2H4c-1.103 0-2 .897-2 2v4h5v-2h2v2h6v-2h2v2h5V8c0-1.103-.897-2-2-2zM9 4h6v2H9V4zm8 11h-2v-2H9v2H7v-2H2v6c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-6h-5v2z"/>
                </svg>
-               Experience
+               Expérience
              </div>
           </div>
 
@@ -63,7 +63,7 @@ const Qualification = () => {
                   <h3 className="qualification_title">Creation de cite vitrine</h3>
                   <span className="qualification_subtitle">EMIT Fianarnatsoa </span>
                   <div className="qualification_calendar">
-                    <CalendarIcon/>2023 jusq'aujourd'huit
+                    <CalendarIcon/>2023 jusq'à aujourd'huit
                   </div>
                 </div>
 
@@ -81,21 +81,21 @@ const Qualification = () => {
                    <span className="qualification_line"></span>
                  </div>
                 <div>
-                  <h3 className="qualification_title">Routege de VLAN en reseau</h3>
+                  <h3 className="qualification_title">Système de routage réseau.</h3>
                   <span className="qualification_subtitle">EMIT Fianrantsoa </span>
                   <div className="qualification_calendar">
                     <CalendarIcon/>
-                    2024 a present
+                    2024 à present
                   </div>
                 </div>
               </div>
 
               <div className="qualification_data">
                  <div>
-                   <h3 className="qualification_title">Developpeur web.</h3>
+                   <h3 className="qualification_title">Développeur web.</h3>
                    <span className="qualification_subtitle">Ecole EMIT Fianarantsoa</span>
                    <div className="qualification_calendar">
-                     <CalendarIcon/>debut 2024
+                     <CalendarIcon/>début 2024
                    </div>
                  </div>
                  <div>
@@ -112,7 +112,7 @@ const Qualification = () => {
                     <span className="qualification_line"></span>
                   </div> 
                  <div>
-                   <h3 className="qualification_title">Maintenaince <br />informatique.</h3>
+                   <h3 className="qualification_title">Maintenaince informatique.</h3>
                    <span className="qualification_subtitle">Fiary'Soft Fianarantsoa</span>
                    <div className="qualification_calendar">
                      <CalendarIcon/>

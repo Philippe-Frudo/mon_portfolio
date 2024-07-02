@@ -1,5 +1,5 @@
 .qualification_container {
-     max-width: 768px;
+     /* width: auto; */
 }
 
 .qualification_tabs {
@@ -52,13 +52,13 @@
 }
 
 .qualification_title {
-    font-size: var(--normal-font-size);
+    font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
 }
 
 .qualification_subtitle {
     display: inline-block; 
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     margin-bottom: var(--mb-1);
 }
 

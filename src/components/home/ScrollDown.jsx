@@ -27,7 +27,7 @@ const ScrollDown = () => {
              d="M11 6h2v6h-2z"
               />
         </svg>
-        <span className='home_croll-name'>defile vers le bas</span>
+        <span className='home_croll-name'>défile vers le bas</span>
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
             width="24" 

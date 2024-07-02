@@ -4,7 +4,7 @@ const Social = () => {
 
   return (
     <div className='home_social'>
-      <a href="https://www.linkedin.com/" className="home_social-icon" target="_blink">
+      <a href="#" className="home_social-icon" target="_blink">
         <svg xmlns="http://www.w3.org/2000/svg" 
         width="24" 
         height="24" 
@@ -14,7 +14,7 @@ const Social = () => {
 
       </a>
 
-      <a href="https://www.github.com/" className="home_social-icon" target='_blink'>
+      <a href="https://github.com/Philippe-Frudo/" className="home_social-icon" target='_blink'>
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
           width="24" 

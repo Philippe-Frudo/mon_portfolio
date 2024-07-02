@@ -38,7 +38,7 @@ const Backend = () => {
                 <BadgeIcon/>
                 <div>
                     <h3 className="skills_name">MySQL</h3>
-                    <span className="skills_level">Intermediate</span>
+                    <span className="skills_level">Intermédiaire </span>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@ const Backend = () => {
                  <BadgeIcon/>
                 <div>
                     <h3 className="skills_name">SQL</h3>
-                    <span className="skills_level">Intermediate</span>
+                    <span className="skills_level">Intermédiaire</span>
                 </div>
              </div>
 

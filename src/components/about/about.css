@@ -31,12 +31,12 @@
 }
 
 .about_title {
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
 
 .about_subtitle {
-    font-size: var(--tiny-font-size);
+    font-size: var(--small-font-size);
 }
 
 .about_description {

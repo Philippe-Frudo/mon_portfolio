@@ -19,11 +19,11 @@ const About = () => {
         <div className="about_data">
           <Info/>
           <p className="about_description">
-          Je suis étudiant en deuxième année de parcours informatique, spécialisé dans le développement d'applications, à l'EMIT Fianarantsoa. Passionné par la technologie, je me suis déjà familiarisé avec divers langages de programmation et outils de développement. Je suis constamment à la recherche de nouveaux défis pour perfectionner mes compétences et contribuer à des projets innovants.
+          Dynamique étudiant en deuxième année de licence informatique à l’université   de l’Ecole Management d’Innovation Technologique (EMIT) Fianarantsoa. Passionné par le développement d’application et gestion de données. Avec une forte capacité d’adaptation et un esprit d’équipe développé. Je cherche un stage ou je pourrais appliquer mes compétences techniques tout en enrichissant mes connaissances pratiques dans un environnement stimulant.
           </p>
 
           <a download="" href={CV} className="button button-flex">
-              Telecharger mon CV
+              Télécharger mon CV
             <svg  
               className="button_icon"
               xmlns="http://www.w3.org/2000/svg" 

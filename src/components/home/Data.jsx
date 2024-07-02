@@ -1,4 +1,5 @@
 import React from 'react';
+import Social from "./Social";
 
 const Data = () => {
   return (
@@ -18,12 +19,11 @@ const Data = () => {
         </svg>
 
       </h1>
-      <h3 className="home_subtitle">Developpeur React/PHP</h3>
+      <h3 className="home_subtitle">Développeur React/PHP</h3>
       <p className='home_description'> 
-        Passionné par la technologie et la création de solutions innovantes.
-        <br />
+      Passionné par le développement d’application et gestion de données.
       </p>
-
+        <Social />
       <a href="#contact" className="button button-flex">
         Contactez-moi
         <svg 
