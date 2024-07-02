@@ -112,65 +112,12 @@ const Qualification = () => {
                     <span className="qualification_line"></span>
                   </div> 
                  <div>
-                   <h3 className="qualification_title">Maintenaince informatique.</h3>
-                   <span className="qualification_subtitle">Fiary'Soft Fianarantsoa</span>
+                   <h3 className="qualification_title">Informatique <br />bureautique.</h3>
+                   <span className="qualification_subtitle">Madvision <br /> Farafangana </span>
                    <div className="qualification_calendar">
                      <CalendarIcon/>
-                     2023 - 2024
+                     2022
                    </div>
-                 </div>
-               </div>
-            </div>
-
-
-            <div className={
-                toggleState === 2 ? 
-                "qualification_content qualification_content-active" : 
-                "qualification_content"
-              }>
-              <div className="qualification_data">
-                <div>
-                  <h3 className="qualification_title">Conception de projet</h3>
-                  <span className="qualification_subtitle"></span>
-                  <div className="qualification_calendar">
-                    <CalendarIcon/>
-                    2024 - a present
-                  </div>
-                </div>
-                <div>
-                  <span className="qualification_rounder"></span>
-                  <span className="qualification_line"></span>
-                </div>
-              </div>
-
-              <div className="qualification_data">
-                <div></div>
-                <div>
-                   <span className="qualification_rounder"></span>
-                   <span className="qualification_line"></span>
-                 </div>
-                <div>
-                  <h3 className="qualification_title">Informatique <br />bureautique</h3>
-                  <span className="qualification_subtitle">Madvision <br /> Farafangana </span>
-                  <div className="qualification_calendar">
-                    <CalendarIcon/>
-                    2022
-                  </div>
-                </div>
-              </div>
-
-              <div className="qualification_data">
-                 <div>
-                   <h3 className="qualification_title">Concepteur Web</h3>
-                   <span className="qualification_subtitle">Figma - Madagascar</span>
-                   <div className="qualification_calendar">
-                     <CalendarIcon/>
-                     2024
-                   </div>
-                 </div>
-                 <div>
-                   <span className="qualification_rounder"></span>
-                   <span className="qualification_line"></span>
                  </div>
                </div>
             </div>
