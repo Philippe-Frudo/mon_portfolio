@@ -1,6 +1,7 @@
 import Image1 from "./../../assets/work1.png";
 import Image2 from "./../../assets/work2.png";
 import Image3 from "./../../assets/work3.png";
+import Image4 from "./../../assets/work4.png";
 
 const Data = [
     {
@@ -25,6 +26,14 @@ const Data = [
         title: "Portfolio",
         description : "C'est un portofio que j'ai developpé par reactJS",
         linkGit: "https://github.com/Philippe-Frudo/mon_portfolio.git",
+        linkProject: ""
+    },
+    {
+        id: 4,
+        image: Image4,
+        title: "Inscription concours",
+        description : "Un projet d'inscription à l'examen, développé en JavaSwing",
+        linkGit: "https://github.com/Philippe-Frudo/inscription-concours.git",
         linkProject: ""
     }
 
