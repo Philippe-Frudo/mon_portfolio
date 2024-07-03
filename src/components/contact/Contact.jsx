@@ -101,12 +101,12 @@ const Contact = () => {
           <form ref={form} onSubmit={sendEmail} className='contact_content'>
             <div className="contact_form-div">
               <label htmlFor="name" className="contact_form-tag">Nom</label>
-              <input type="text" name='name' id='name' className='contact_form-input' placeholder='Entrer votre nom ...'/>
+              <input type="text" name='name' id='name' className='contact_form-input' required placeholder='Entrer votre nom ...'/>
             </div>
 
             <div className="contact_form-div">
               <label htmlFor="email" className="contact_form-tag">Email</label>
-              <input type="email" name='email' id='email' className='contact_form-input' placeholder='Entrer votre email...'/>
+              <input type="email" name='email' id='email' className='contact_form-input' required placeholder='Entrer votre email...'/>
             </div>
 
             <div className="contact_form-div  contact_form-area">
@@ -118,6 +118,7 @@ const Contact = () => {
                 cols="30" 
                 rows="10"
                 placeholder='Entrer votre message...'
+                required
                 >
               </textarea>
             </div>
