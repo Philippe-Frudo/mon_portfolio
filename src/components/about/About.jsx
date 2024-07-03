@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css"
 import AboutImg from "./../../assets/about.jpg";
-import CV from "./../../assets/Frudo_CV.pdf";
+import CV from "./../../assets/Mon_CV.pdf";
 import Info from './Info';
 
 
@@ -14,7 +14,7 @@ const About = () => {
       </span>
 
       <div className="about_container container grid">
-        <img src={AboutImg} alt="About_Image" className="about_img" />
+        <img src={AboutImg} alt="Mon_CV" className="about_img" />
 
         <div className="about_data">
           <Info/>
