@@ -11,7 +11,7 @@ const Backend = () => {
             <div className="skills_data">
                 <BadgeIcon/>
                 <div>
-                    <h3 className="skills_name">PHP (POO)</h3>
+                    <h3 className="skills_name">PHP(POO)</h3>
                     <span className="skills_level">Intermedaire</span>
                 </div>
             </div>
@@ -19,7 +19,7 @@ const Backend = () => {
             <div className="skills_data">
                 <BadgeIcon/>
                <div>
-                   <h3 className="skills_name">Java (POO)</h3>
+                   <h3 className="skills_name">Java(POO)</h3>
                    <span className="skills_level">Intermediare</span>
                </div>
             </div>
@@ -53,25 +53,18 @@ const Backend = () => {
             <div className="skills_data">
                 <BadgeIcon/>
                <div>
-                   <h3 className="skills_name">Language C</h3>
+                   <h3 className="skills_name">LanguageC</h3>
                    <span className="skills_level">Basic</span>
                </div>
             </div>
             <div className="skills_data">
                 <BadgeIcon/>
                <div>
-                   <h3 className="skills_name">FireBase</h3>
+                   <h3 className="skills_name">Versel</h3>
                    <span className="skills_level">Basic</span>
                </div>
             </div>
 
-            {/*<div className="skills_data">
-                 <BadgeIcon/>
-                <div>
-                    <h3 className="skills_name">Java</h3>
-                    <span className="skills_level">Intermediate</span>
-                </div>
-             </div>*/}
         </div>
       </div>
     </div>

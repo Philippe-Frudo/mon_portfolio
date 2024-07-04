@@ -20,7 +20,7 @@ const Frontend = () => {
                 <BadgeIcon/>
                <div>
                    <h3 className="skills_name">CSS</h3>
-                   <span className="skills_level">Avancé</span>
+                   <span className="skills_level">Intermédiaire</span>
                </div>
             </div>
 

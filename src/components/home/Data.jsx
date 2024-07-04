@@ -4,7 +4,7 @@ import Social from "./Social";
 const Data = () => {
   return (
     <div className='home_data'>
-      <h1 className="home_title">Philippe Frudo
+      <h1 className="home_title">LAINANTENANINA Frudo
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
           width="36" 
@@ -19,9 +19,9 @@ const Data = () => {
         </svg>
 
       </h1>
-      <h3 className="home_subtitle">Développeur React/PHP</h3>
+      <h3 className="home_subtitle">Développeur web</h3>
       <p className='home_description'> 
-        Passionné par la technologie et la création de solutions innovants. 
+        Passionné par le développement web.
       </p>
         <Social />
       <a href="#contact" className="button button-flex">
