@@ -21,7 +21,7 @@ const Data = () => {
       </h1>
       <h3 className="home_subtitle">Développeur web</h3>
       <p className='home_description'> 
-        Passionné par le développement web.
+        Passionné par la technologie et la création des solitions innovants.
       </p>
         <Social />
       <a href="#contact" className="button button-flex">
