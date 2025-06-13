@@ -19,7 +19,7 @@ const About = () => {
         <div className="about_data">
           <Info/>
           <p className="about_description">
-          Dynamique étudiant en deuxième année de licence informatique à l’université  de l’Ecole Management d’Innovation Technologique (E.M.I.T) Fianarantsoa. Passionné par la technologie et la création des solitions innovants. Avec une forte capacité d’adaptation et un esprit d’équipe développé. Je cherche un stage ou je pourrais appliquer mes compétences techniques tout en enrichissant mes connaissances pratiques dans un environnement stimulant.
+          Étudiant dynamique en troisième année de licence en informatique à l’École de Management et d’Innovation Technologique (E.M.I.T) à Fianarantsoa. Passionné par les technologies et la création de solutions innovantes, je fais preuve d’une grande capacité d’adaptation et d’un solide esprit d’équipe. Je m’investis pleinement dans le développement de projets informatiques afin de renforcer mes compétences techniques et contribuer à des initiatives à fort impact.
           </p>
 
           <a download="" href={CV} className="button button-flex">

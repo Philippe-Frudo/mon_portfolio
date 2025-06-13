@@ -4,7 +4,7 @@ import BadgeIcon from './Badge';
 const Frontend = () => {
   return (
     <div className='skills_content'>
-      <h3 className="skills_title">Développeur Frontend</h3>
+      <h3 className="skills_title">Développeur front-end</h3>
 
       <div className="skills_box">
         <div className="skills_group">

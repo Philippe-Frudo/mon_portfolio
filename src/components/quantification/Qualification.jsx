@@ -16,6 +16,7 @@ const Qualification = () => {
 
         <div className="qualification_container container">
           <div className="qualification_tabs">
+
             <div className={
               toggleState === 1 ? 
               "qualification_button qualification_active button-flex" : "qualification_button button-flex"
@@ -49,7 +50,8 @@ const Qualification = () => {
                  <path d="M20 6h-3V4c0-1.103-.897-2-2-2H9c-1.103 0-2 .897-2 2v2H4c-1.103 0-2 .897-2 2v4h5v-2h2v2h6v-2h2v2h5V8c0-1.103-.897-2-2-2zM9 4h6v2H9V4zm8 11h-2v-2H9v2H7v-2H2v6c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-6h-5v2z"/>
                </svg>
                Expérience
-             </div>
+            </div>
+
           </div>
 
           <div className="qualification_sections">
@@ -60,7 +62,7 @@ const Qualification = () => {
               }>
               <div className="qualification_data">
                 <div>
-                  <h3 className="qualification_title">Creation de cite vitrine</h3>
+                  <h3 className="qualification_title">Creation de site vitrine</h3>
                   <span className="qualification_subtitle">EMIT Fianarnatsoa </span>
                   <div className="qualification_calendar">
                     <CalendarIcon/>2023 jusq'à aujourd'huit
@@ -120,8 +122,31 @@ const Qualification = () => {
                    </div>
                  </div>
                </div>
-            </div>
+              </div>
+
+              <div className={
+                toggleState === 2 ? 
+                "qualification_content qualification_content-active" : 
+                "qualification_content"
+              }>
+              <div className="qualification_data">
+                <div>
+                  <h3 className="qualification_title">Stagiaire à InStat</h3>
+                  <span className="qualification_subtitle">à Antananarivo</span>
+                  <div className="qualification_calendar">
+                    <CalendarIcon/>01/07/2024 - 24/08/2024
+                  </div>
+                </div>
+
+                <div>
+                  <span className="qualification_rounder"></span>
+                  <span className="qualification_line"></span>
+                </div>
+              </div>
+
+              </div>
           </div>
+
         </div>
     </section>
   );
