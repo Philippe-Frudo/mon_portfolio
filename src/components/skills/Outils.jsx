@@ -27,14 +27,6 @@ const Outils = () => {
 
             <div className="skills_data">
                 <BadgeIcon/>
-                <div>
-                    <h3 className="skills_name">GitHub</h3>
-                    <span className="skills_level">Intermédiaire</span>
-                </div>
-            </div>
-
-            <div className="skills_data">
-                <BadgeIcon/>
                <div>
                    <h3 className="skills_name">Postman</h3>
                    <span className="skills_level">Intermédiaire</span>
@@ -45,10 +37,10 @@ const Outils = () => {
         <div className="skills_group">
             <div className="skills_data">
                 <BadgeIcon/>
-               <div>
-                   <h3 className="skills_name">PostegreSQL</h3>
-                   <span className="skills_level">Intermédiaire</span>
-               </div>
+                <div>
+                    <h3 className="skills_name">GitHub</h3>
+                    <span className="skills_level">Intermédiaire</span>
+                </div>
             </div>
 
             <div className="skills_data">
